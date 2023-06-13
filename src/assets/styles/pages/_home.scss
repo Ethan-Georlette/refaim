@@ -1,0 +1,64 @@
+.home {
+    .hero {
+        overflow: hidden;
+        height: 80vh;
+
+        img {
+            width: 100%;
+        }
+
+        .chev {
+            width: 100%;
+            padding-inline: 20px;
+            position: absolute;
+            top: 50vh;
+        }
+
+        .fas::before {
+            font-size: 2rem;
+        }
+        
+        .fas:hover::before {
+            font-size: 2.1rem;
+            color:#4E6C50;
+        }
+
+        .welcome {
+            padding-top: 50%;
+            color: #820000;
+            font-family: 'Quicksand-Light';
+            text-shadow: 0px 0px 20px black;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        .findBtn {
+            height: 10vh;
+            width: 50vw;
+            border-radius: 15px;
+            background-color: #fff;
+            font-size: 2rem;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 9px 2px;
+        }
+
+        .findBtn:active {
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 0px;
+        }
+    }
+
+    .info {
+        padding-top: 2vh;
+        padding-inline: 1rem;
+    }
+
+    .beaches-in-area {
+        padding-top: 4vh;
+        margin-inline: 1rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
