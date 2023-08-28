@@ -48,9 +48,9 @@ export function AppHeader() {
                         על העמותה
                     </NavLink>
                     <div className="dropdown-items">
-                        <a href="">חזון ומטרות</a>
-                        <a href="">שותפים</a>
-                        <a href="">תקנון</a>
+                        <a href="#vision">חזון העמותה</a>
+                        <a href="#objectives">מטרות העמותה</a>
+                        <a href="#media">היחידה במדיה</a>
                         <a href="">שקיפות ומנהל תקין</a>
                     </div>
                 </div>
