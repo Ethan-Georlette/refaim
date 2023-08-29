@@ -6,6 +6,7 @@
         margin-bottom: 3rem;
     }
     .media {
+        background-image: url(../../img/bg-circle.jpg);
         padding-left: 3rem;
         padding-right: 3rem;
         width: 100vw;
@@ -13,23 +14,31 @@
 
         .article {
             // border: 1px solid black;
+            font-family: 'roboto';
             justify-content: space-between;
             text-align: right;
             background-color: #dfdfdf;
             box-shadow: 0px 0px 7px 0px;
             height: 400px;
-            width: 300px;
-            padding-bottom: 10px;
+            width:70vw;
+            img{
+                height: 400px;
+                width: 600px;
+            }
             div{
-                padding-right: 5px;
+                padding-right:10px;
+                padding-left: 10px;
+                height: 100%;
+                gap: 1rem;
             }
             h1 {
-                font-size: 1rem;
-                margin-bottom:0.2rem;
+                font-size: 2.3rem;
+                margin-bottom:0;
             }
 
             p {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
+                font-weight: 520;
             }
             a{
                 background-color:#46694D;
@@ -37,7 +46,7 @@
                 width: 120px;
                 height: 30px;
                 color: #dfdfdf;
-                align-self: center;
+                align-self: flex-start;
                 display: flex;
                 justify-content: center;
                 align-items: center;

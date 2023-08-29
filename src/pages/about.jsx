@@ -1,5 +1,5 @@
 import refaim from '../assets/img/refaim.png'
-import about from '../assets/img/about1.jpg'
+import about from '../assets/img/about2.jpg'
 import { Media } from '../cmps/media'
 export function About() {
 
@@ -62,7 +62,7 @@ export function About() {
                         </li>
                         <li>
                             <span className="head">תמיכה בחיילי היחידה הרב מימדית-</span>
-                            .העמותה תסייע ותתן פתרונות לחיילים מהיחידה הזקוקים לתמיכה,
+                            העמותה תסייע ותתן פתרונות לחיילים מהיחידה הזקוקים לתמיכה.
                         </li>
                     </ul>
                 </div>

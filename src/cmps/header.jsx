@@ -23,7 +23,7 @@ export function AppHeader() {
                 </NavLink>
                 <div className="dropdown flex column">
                     <NavLink to="/contribute" className={({ isActive }) => (isActive ? "link active" : "link")}>
-                        פעילות בקהילה
+                        פעילות 
                     </NavLink>
                     <div className="dropdown-items">
                         <a href="">אירועים</a>
