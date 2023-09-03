@@ -1,13 +1,4 @@
-//@font-face {
-//    font-family: caveat;
-//    src: url(../../fonts/Caveat/Caveat-Regular.ttf);
-//}
-//@font-face {
-//    font-family: montserrat;
-//    src: url(../../fonts/Montserrat/Montserrat-Regular.ttf);
-//}
 
-// Lobster, permMa
 @font-face {
   font-family: 'Lobster';
   src        : url(../../fonts/Lobster-Regular.ttf);
@@ -37,6 +28,10 @@
   font-family: fas;
   src        : url(../../fonts/fa-solid-900.ttf);
 }
+@font-face {
+  font-family: fab;
+  src        : url(../../fonts/fa-brands-400.ttf);
+}
 
 @font-face {
   font-family: far;
@@ -64,6 +59,9 @@
 
 .fas {
   font-family: fas;
+}
+.fab {
+  font-family: fab;
 }
 .far {
   font-family: far;
@@ -147,6 +145,18 @@
 .fa-music::before {
   content: '\f001';
 }
+.fa-facebook::before {
+  content: '\f09a';
+  font-size: 2rem;
+}
+.fa-instagram::before {
+  content: '\f16d';
+  font-size: 2rem;
+}
+.fa-envalope::before {
+  content: '\f0e0';
+  font-size: 2rem;
+}
 
 .fa-heart::before {
   content  : '\f004';
@@ -154,11 +164,6 @@
   font-size: 16px;
 }
 
-// .fa-heart::before {
-//   content: '\f004';
-//   color: #1db954;
-//   font-size: 16px;
-// }
 
 .fa-volume-mute::before {
   content  : '\f6a9';
