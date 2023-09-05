@@ -1,6 +1,7 @@
 
 import { About } from "./pages/about";
 import { Home } from "./pages/home";
+import { Refaim } from "./pages/refaim";
 
 const routes = [
     {
@@ -10,6 +11,10 @@ const routes = [
     {
         path:'/about',
         component: <About/>,
+    },
+    {
+        path:'/refaim',
+        component: <Refaim/>,
     },
 ]
 

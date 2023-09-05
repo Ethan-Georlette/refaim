@@ -1,0 +1,52 @@
+.refaim {
+
+    background-image: url(../../img/bg-circle.jpg);
+        .logo {
+            height: 60vh;
+            background-color:#820000b0;
+            margin-bottom: 30px;
+            h1{
+                font-size: 3rem;
+            }
+            a {
+                color: #820000;
+                font-size: 2rem;
+            }
+
+            img {
+                height: 30vh;
+            }
+        }
+
+    .videos {
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 40px;
+        color: #820000;
+        margin-bottom: 50px;
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+    
+    .about-refaim {
+        height: 100%;
+        text-align: center;
+        gap: 20px;
+        img{
+            width: 20vw;
+            height:fit-content;
+            border-radius: 2%;
+        }
+        h1{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        p{
+            width: 40vw;
+            font-size: 1.3rem;
+        }
+    }
+
+}
